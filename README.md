@@ -1,7 +1,7 @@
 # Monitoring Kubernetes Cluster dengan Prometheus dan Grafana
 
-<br>Dibutuhkan Helm dan Tiller, lakukan inisialisasi tiller dan repo helm, dengan menggunakan perintah:</br>
-<br>$ kubectl apply -f helm/01-serviceaccount.yaml</br>
+<br>Dibutuhkan Helm dan Tiller, lakukan inisialisasi tiller dan repo helm, dengan menggunakan perintah:
+<br>$ kubectl apply -f helm/01-serviceaccount.yaml
 <br>$ kubectl apply -f helm/02-rolebinding.yaml
 <br>$ helm init --service-account tiller --wait
 <br>$ helm repo update
